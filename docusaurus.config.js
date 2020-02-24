@@ -1,12 +1,13 @@
 module.exports = {
   title: 'hamlet',
-  tagline: 'an opinionated, ConfigFirst DevOps platform for everyone.',
+  tagline: 'opinionated, ConfigFirst DevOps for everyone.',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'hamlet', // Usually your GitHub org/user name.
+  projectName: 'hamlet', // Usually your repo name.
   themeConfig: {
+    disableDarkMode: true,
     navbar: {
       title: '',
       logo: {
@@ -16,9 +17,15 @@ module.exports = {
       links: [
         {to: 'docs/index', label: 'docs', position: 'left'},
         {to: 'blog', label: 'releases', position: 'left'},
-        {to: 'roadmap', label: 'roadmap', position: 'left'},
-        {to: "contribute", label: 'contribute', position: 'left'},
+        {to: 'roadmap', label: 'roadmap', position: 'right'},
+        {to: "contribute", label: 'contribute', position: 'right'},
+        {to: "https://gitter.im/hamlet-devops/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link", label: 'community', position: 'right'},
       ],
+    },
+    algolia: {
+      apiKey: '919c25df3c384329b25098f1dcb5c5a6',
+      indexName: 'hamlet',
+      algoliaOptions: {},
     },
     footer: {
       style: 'dark',
@@ -40,30 +47,42 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'Social',
-          items: [
-            {
               label: 'Blog',
               to: 'blog',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Gitter',
+              href: 'https://gitter.im/hamlet-devops/community?utm_source=share-link&utm_medium=link&utm_campaign=share-links',
+            }
+          ],
+        },
+        {
+          title: 'Repos',
+          items: [
+            {
+              label: 'Generation (Core)',
+              href: 'https://github.com/codeontap/gen3',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Automation',
+              href: 'https://github.com/codeontap/automation',
             },
+            {
+              label: 'CLI',
+              href: 'https://github.com/codeontap/gen3-cli'
+            },
+            {
+              label: 'Docker',
+              href: 'https://github.com/codeontap/docker-gen3'
+            },
+            {
+              label: 'Patterns',
+              href: 'https://github.com/codeontap/gen3-patterns'
+            },
+            {
+              label: 'Freemarker Wrapper',
+              href: 'https://github.com/codeontap/gen3-freemarker-wrapper'
+            }
           ],
         },
       ],
@@ -90,5 +109,5 @@ module.exports = {
       src: "https://p.trellocdn.com/embed.min.js",
       async: true,
     }
-  ]
+  ],
 };
