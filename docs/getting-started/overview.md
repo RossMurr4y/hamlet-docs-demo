@@ -2,13 +2,15 @@
 sidebar_label: overview
 title: Before We Begin...
 ---
-This short guide will walk you through the process of setting up `hamlet`, generating some real-world cloud infrastructure templates and cover their deployment process. The guide creates a small number of commonly understood cloud infrastructure resources to best highlight the power of `hamlet` to all audiences. For those seeking greater complexity, see our [Guides](../guides/overview.md).
+This short guide will walk you through the process of setting up `hamlet`, generating some real-world cloud infrastructure templates and cover their deployment process. The guide creates a small number of commonly understood cloud infrastructure resources to best highlight the power of `hamlet` to all audiences. For those seeking greater complexity, see our [Tutorials](../tutorials/overview.md).
 
-TODO(rossmurray): complete link to guides
+## Pre-Requisites
+- [Docker](https://docs.docker.com/install/) 
+
 ## Helpful Concepts
 You will get the most out of this guide if you are at least familiar with the purpose of the following (no working experience with them is expected for this guide):
 
-- [Configuration Management Database - CMDB]()
-- [Cloud Infrastructure]()
-- [Cloud Providers - AWS and Azure]()
-#TODO(rossmurray): provide links for all
+- [Configuration Management Database - CMDB](https://en.wikipedia.org/wiki/Configuration_management_database)
+- [Infrastructure as Code](https://en.wikipedia.org/wiki/Infrastructure_as_code)
+- [Amazon Web Services (AWS)](https://aws.amazon.com/)
+- [Microsoft Azure](https://azure.microsoft.com/)

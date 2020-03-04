@@ -25,6 +25,13 @@ module.exports = {
           items: [
             {
               type: 'category',
+              label: 'hello hamlet!',
+              items: [
+                'tutorials/create/multi/hello-hamlet',
+              ]
+            },
+            {
+              type: 'category',
               label: 'a single-page-app in AWS',
               items: [
                 'tutorials/create/aws/guide-1-1',
