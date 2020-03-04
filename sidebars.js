@@ -10,8 +10,8 @@ module.exports = {
       label: 'Getting Started',
       items: [
         'getting-started/overview',
-        'getting-started/installation',
-        'getting-started/hello-hamlet',
+        'getting-started/getting-started-01',
+        'getting-started/getting-started-02',
       ]
     },
     {

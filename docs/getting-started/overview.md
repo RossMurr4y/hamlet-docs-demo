@@ -5,6 +5,7 @@ title: Before We Begin...
 This short guide will walk you through the process of setting up `hamlet`, generating some real-world cloud infrastructure templates and cover their deployment process. The guide creates a small number of commonly understood cloud infrastructure resources to best highlight the power of `hamlet` to all audiences. For those seeking greater complexity, see our [Tutorials](../tutorials/overview.md).
 
 ## Pre-Requisites
+- [Cookie Cutter](https://github.com/cookiecutter/cookiecutter/blob/master/docs/installation.rst)
 - [Docker](https://docs.docker.com/install/) 
 
 ## Helpful Concepts
