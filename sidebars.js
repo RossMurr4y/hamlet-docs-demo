@@ -16,88 +16,89 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Guides',
+      label: 'Tutorials',
       items: [
-        'guides/overview',
+        'tutorials/overview',
         {
           type: 'category',
-          label: 'AWS',
+          label: 'Create',
           items: [
-            'guides/aws/guide-1-1',
-            'guides/aws/guide-1-2',
-            'guides/aws/guide-2-1',
-            'guides/aws/guide-2-2',
+            {
+              type: 'category',
+              label: 'a single-page-app in AWS',
+              items: [
+                'tutorials/create/aws/guide-1-1',
+                'tutorials/create/aws/guide-1-2',
+                'tutorials/create/aws/guide-2-1',
+                'tutorials/create/aws/guide-2-2',
+              ]
+            },
+            {
+              type: 'category',
+              label: 'a django app in Azure',
+              items: [
+                'tutorials/create/azure/guide-1-1',
+                'tutorials/create/azure/guide-1-2',
+                'tutorials/create/azure/guide-2-1',
+                'tutorials/create/azure/guide-2-2',
+              ]
+            },
+            {
+              type: 'category',
+              label: 'a cloud rube-goldberg',
+              items: [
+                'tutorials/create/multi/guide-1-1'
+              ]
+            }
           ]
         },
         {
           type: 'category',
-          label: 'Azure',
+          label: 'Deploy',
           items: [
-            'guides/azure/guide-1-1',
-            'guides/azure/guide-1-2',
-            'guides/azure/guide-2-1',
-            'guides/azure/guide-2-2',
+            'tutorials/deploy/single-deployment-unit-1-1',
+            'tutorials/deploy/all-deployment-units-1-1'
           ]
         },
-      ]
-    },
-    {
-      type: 'category',
-      label: 'Architecture',
-      items: [
-        'architecture/index',
-        'architecture/engine',
-      ]
-    },
-    {
-      type: 'category',
-      label: 'Automation',
-      items: [
-        'automation/index',
-        'automation/automationServerSetup',
-        'automation/environmentvariables',
-        'automation/properties',
-        'automation/release-management',
         {
           type: 'category',
-          label: 'Jenkins Setup',
+          label: 'Upgrade',
           items: [
-            'automation/jenkins-setup/index',
-            'automation/jenkins-setup/local-env-setup',
-            'automation/jenkins-setup/cmdb-setup',
-            'automation/jenkins-setup/deploy-basic-components',
-            'automation/jenkins-setup/encrypt-secrets',
-            'automation/jenkins-setup/deploy-product-components',
-            'automation/jenkins-setup/accessing-jenkins',
+            'tutorials/upgrade/single-deployment-unit-1-1',
+            'tutorials/upgrade/all-deployment-units-1-1'
           ]
         },
+        {
+          type: 'category',
+          label: 'Automate',
+          items: [
+            'tutorials/automate/automate-upgrades-1-1'
+          ]
+        }
       ]
     },
     {
       type: 'category',
-      label: 'Advanced',
+      label: 'Core Concepts',
       items: [
-        'advanced/index',
-        'advanced/creating-a-release',
-        'advanced/creating-references',
-        'advanced/versioning',
+        'architecture/index'
       ]
     },
     {
       type: 'category',
-      label: 'Configuration',
-      items: [
-        'configuration/overview',
-        'configuration/cmdb-folder-structure',
-        'configuration/code-folder-structure',
-      ]
-    },
-    {
-      type: 'category',
-      label: 'Developer Guides',
+      label: 'Contributor Guides',
       items: [
         'developer-guides/index',
         'developer-guides/aws-data-pipeline',
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Examples',
+      items: [
+        'examples/spa-azure',
+        'examples/django-app-aws',
+        'examples/big-data-analytics-aws'
       ]
     },
     {

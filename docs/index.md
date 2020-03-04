@@ -1,5 +1,5 @@
 ---
-sidebar_label: Docs Home
+sidebar_label: welcome
 title: Welcome to hamlet
 ---
 `hamlet` is an opinionated devops platform that provides an enterprise focused CICD pipeline based on the infrastructure as code methodology
