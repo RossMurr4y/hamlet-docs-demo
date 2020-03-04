@@ -24,3 +24,8 @@
 .navbar {
   padding-left: 1rem;
 }
+
+.hero.hero--primary, body {
+  background-color: #faebd7;
+  color: #3a539b;
+}
