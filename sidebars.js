@@ -12,6 +12,9 @@ module.exports = {
         'getting-started/overview',
         'getting-started/getting-started-01',
         'getting-started/getting-started-02',
+        'getting-started/getting-started-03',
+        'getting-started/getting-started-04',
+        'getting-started/getting-started-05',
       ]
     },
     {
